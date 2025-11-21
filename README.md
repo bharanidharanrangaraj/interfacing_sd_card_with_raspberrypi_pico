@@ -1,6 +1,11 @@
 
 # Interfacing SD Card Module with Raspberry Pi Pico
 
+<p align="center">
+    <img src="Images%20&%20Videos/title_image_Interfacing_sd_with_pico.png" width="400">
+  </a>
+</p>
+
 Interfacing an SD card module with the Raspberry Pi Pico using the Arduino framework. Through a simple Serial Monitor menu, users can create, write, read, and delete files on a microSD card, gaining hands-on experience with SPI communication, FAT32 storage, and basic embedded data handling.
 ## Project Overview
 
@@ -58,7 +63,7 @@ The SD module connects to the Pico via SPI0:
 | GP17     | CS     |
 
 <p align="center">
-    <img src="Images%20&%20Videos/wiring_diagram.png" width="400">
+    <img src="Images%20&%20Videos/wiring_diagram_interfacing_sd_card_with_pico.png" width="400">
 <p align="center"> Circuit Diagram </p>
   </a>
 </p>
@@ -92,6 +97,16 @@ SDXC cards (64GB+) must be reformatted to FAT32 using tools like Rufus or GUIFor
 **Unreadable / Garbled output**
 - Baud rate mismatch (must be 115200)
 - Power instability during reads/writes
+
+## Project Video
+
+<p align="center">
+  <a href="Images%20&%20Videos/interfacing_sd_card_with_Pi_Pico_demo_video.mp4">
+    <img src="Images%20&%20Videos/thumbnail.png" width="500">
+  </a>
+<p align="center"> Menu interface in Serial Monitor</p>
+</p>
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
