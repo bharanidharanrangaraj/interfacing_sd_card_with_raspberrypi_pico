@@ -107,7 +107,8 @@ SDXC cards (64GB+) must be reformatted to FAT32 using tools like Rufus or GUIFor
 <p align="center"> Menu interface in Serial Monitor</p>
 </p>
 
+The project is published in Circuit digest website, if needed can visit and learn more: [Interfacing SD Card Module with Raspberry Pi Pico](https://circuitdigest.com/microcontroller-projects/interfacing-sd-card-module-with-raspberry-pi-pico)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
